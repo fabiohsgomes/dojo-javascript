@@ -1,0 +1,33 @@
+﻿Dojo JavaScript
+
+Sistema Léxico - Conjunto de regras que regem a linguagem (JavaScript)
+
+--> Inclusao do Script (vantagem e desvantagem)
+------> Arquivo extreno : Vantagem organização do codigo, necessita fazer uma requisicao ao servidor
+------> Embutino na página : Economiza requizição porém não permite cache
+--> Case-sensitive
+--> Comentários
+--> Declarações (linha de codigo)
+--> Literais = Cada valor a ser atribuido a uma variavel;
+--> Escape
+--> Variáveis e Constantes
+--> Null, undefined, NaN, Infinity(valor limite para numeros)
+2e308(infinity)
+
+--> Objeto global(window, global) e this;
+
+Depurar com JavaScript
+
+Funções
+--> Literais
+--> De primeira classe
+--> Podem ser passadas por parametros;
+--> No ES5, são as únicas que criam escopos
+--> Podem ser auto-executáveis(use strict) - IIFE (Immediately Invoked Function Expression)
+--> Possuem uma propriedade que mostra os argumentos passados por parametro (arguments)
+-----> Problema calcular média (problema com nota zero);
+-----> IMC = peso/ altura ao quadrado (calcular imc e classificar)
+
+DOM
+---> COM = document;
+Eventos
