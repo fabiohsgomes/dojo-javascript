@@ -30,4 +30,11 @@ Funções
 
 DOM
 ---> COM = document;
-Eventos
+Eventos (uma ação executada por algo ou alguém)
+-----> Eventos padrões(abrir uma página, submeter um form)
+-----> Event Handler é a função a ser executada quando ocorre um evento (click, submit)
+--> DOM level 0;
+--> DOM level 0 vs. DOM level 2;
+--> Propagação de eventos Capacidade dos eventos de percorrerem a estrutura do HTML da origem ao nivel mais alto);
+--> Objeto Event;
+--> Delegação de Eventos (Técnica que consiste em atrelar o evento a um elemento mais alto e verificar quem foi o elemento clicado)
